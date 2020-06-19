@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.styles.scss";
-import { Link, Route } from "react-router-dom";
+import { Route } from "react-router-dom";
 import PostPage from "./components/postPage/PostPage.component";
 
 class App extends React.Component {

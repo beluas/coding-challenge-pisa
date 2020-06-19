@@ -16,10 +16,11 @@ class PostPage extends React.Component {
 
 		const comments = await axios.get("http://localhost:3000/comments");
 
-		this.setState(
-			{ posts: posts.data, comments: comments.data, isLoading: false },
-			() => console.log(this.state)
-		);
+		this.setState({
+			posts: posts.data,
+			comments: comments.data,
+			isLoading: false,
+		});
 	}
 
 	render() {

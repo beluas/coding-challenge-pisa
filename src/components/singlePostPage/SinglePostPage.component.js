@@ -26,14 +26,11 @@ class SinglePostPage extends React.Component {
 				parseInt(this.props.match.params.id)
 		);
 
-		this.setState(
-			{
-				post: post.data,
-				commentsToShow: [...commentsToShow],
-				commentsLength: comments.data.length,
-			},
-			() => console.log(this.state)
-		);
+		this.setState({
+			post: post.data,
+			commentsToShow: [...commentsToShow],
+			commentsLength: comments.data.length,
+		});
 	};
 
 	async componentDidMount() {

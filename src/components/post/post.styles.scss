@@ -1,0 +1,19 @@
+.post {
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 2rem;
+	.img {
+		margin-right: 3rem;
+	}
+	.titles-info {
+		display: flex;
+		align-items: center;
+		.line {
+			margin: 1.5rem;
+			width: 4px;
+			height: 40px;
+			background-color: black;
+		}
+	}
+}

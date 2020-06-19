@@ -1,0 +1,82 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post Title 1",
+      "author": "Author 1",
+      "body": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita suscipit laborum, facere quaerat placeat voluptate ad saepe, distinctio officia delectus id odio nobis consequatur ratione architecto labore! Voluptatum, laborum explicabo!"
+    },
+    {
+      "id": 2,
+      "title": "Post Title 2",
+      "author": "Author 2",
+      "body": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita suscipit laborum, facere quaerat placeat voluptate ad saepe, distinctio officia delectus id odio nobis consequatur ratione architecto labore! Voluptatum, laborum explicabo!"
+    },
+    {
+      "id": 3,
+      "title": "Post Title 3",
+      "author": "Author 3",
+      "body": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita suscipit laborum, facere quaerat placeat voluptate ad saepe, distinctio officia delectus id odio nobis consequatur ratione architecto labore! Voluptatum, laborum explicabo!"
+    },
+    {
+      "id": 4,
+      "title": "Post Title 4",
+      "author": "Author 4",
+      "body": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita suscipit laborum, facere quaerat placeat voluptate ad saepe, distinctio officia delectus id odio nobis consequatur ratione architecto labore! Voluptatum, laborum explicabo!"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1,
+      "name": "name1",
+      "email": "email@email.com"
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1,
+      "name": "name2",
+      "email": "email@email.com"
+    },
+    {
+      "id": 3,
+      "body": "some comment",
+      "postId": 2,
+      "name": "name3",
+      "email": "email@email.com"
+    },
+    {
+      "postId": "1",
+      "id": 4,
+      "name": "name",
+      "email": "email",
+      "body": "body"
+    },
+    {
+      "postId": "3",
+      "id": 5,
+      "name": "Ivan",
+      "email": "ivan",
+      "body": "Message\n"
+    },
+    {
+      "postId": "3",
+      "id": 6,
+      "name": "sdsd",
+      "email": "",
+      "body": "sdsdsd"
+    },
+    {
+      "postId": "1",
+      "id": 7,
+      "name": "test",
+      "email": "tesrt",
+      "body": "test"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

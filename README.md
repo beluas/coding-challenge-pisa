@@ -1,7 +1,11 @@
+# Important
+
+1. Use " json-server --watch db.json " to start the local DB
+2. Please run your App on http://localhost:3001 and the local db on http://localhost:3000
+
 # Duration: 1 week
 
-Develop a single page application using Angular framework that implements a simple Blog using the APIs provided by https://jsonplaceholder.
-typicode.com.
+Develop a single page application using Angular framework that implements a simple Blog using the APIs provided by https://jsonplaceholder.typicode.com.
 
 You can also use the local version of the apis by running the server locally https://github.com/typicode/json-server .
 

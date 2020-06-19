@@ -1,12 +1,3 @@
-# Important
-
-1. Please install Json server to be able to correctly use the project
-   " npm install -g json-server "
-
-2. Please run the Local DB on http://localhost:3000 using : " json-server --watch db.json "
-
-3. Run the app on http://localhost:3001
-
 # Duration: 1 week
 
 Develop a single page application using Angular framework that implements a simple Blog using the APIs provided by https://jsonplaceholder.
